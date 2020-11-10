@@ -17,3 +17,8 @@ def won?
   bottom_row_win = [6,7,8]
   if board[bottom_row_win[6]] == "X" && board[bottom_row_win[7]] == "X" && board[bottom_row_win[8]] == "X"
     puts "X won the bottom row"
+  board = ["X", " ", " ", "X", " ", " ", "X", " ", " "]
+  left_column_win = [0,3,6]
+  if board[left_column_win[0]] == "X" && board[left_column_win[3]] == "X" && board[left_column_win[6]] == "X"
+    puts "X won the left column"
+    
