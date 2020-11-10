@@ -17,4 +17,3 @@ def won?
   bottom_row_win = [6,7,8]
   if board[bottom_row_win[6]] == "X" && board[bottom_row_win[7]] == "X" && board[bottom_row_win[8]] == "X"
     puts "X won the bottom row"
-  end
